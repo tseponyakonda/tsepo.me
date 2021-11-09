@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background: #0c0013;
+    color: #fff;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+@font-face {
+    font-family: satoshi;
+    font-weight:600;
+    src: url(fonts/Satoshi-Medium.woff2) format("woff2");
+}
+
+@font-face{
+    font-weight:600;
+    font-family:harmond;
+    src:url(fonts/Harmond-SemiBoldCondensed.woff2) format("woff2")
+}
+
+.hwrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid red;
+}
+.fttop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    border-bottom: rgb(166,166,166) 0.2px solid;
+    
+}
+
+svg{
+    width: 30px;
+    /* padding: 20px; */
+    height: 100px;
+    /* border: 1px solid yellow; */
+    /* padding: 10px; */    
+    margin: 15px;
+}
+h1{
+    font-family: harmond;
+    /* -webkit-text-stroke: 1px rgb(255, 255, 255); */
+    /* color: #0c0013; */
+    margin-bottom: 10px;
+}
+.git{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    align-content: center;
+}
+.git a{
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid rgb(160, 31, 199);
+    border-radius: 5px;
+}
+.ftbtm{
+    padding: 10px;
+    opacity: 0.5;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+#sayhello{
+    margin-top: 20px;
+}
+p{
+    font-family: satoshi;
+    margin-bottom: 20px;
+}
